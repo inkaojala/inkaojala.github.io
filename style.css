@@ -9,11 +9,13 @@ body {
     font-size: 60px;
 }
 img {
+    float: left;
     max-width:400px;
-    width:100%
+    width:100%;
+    margin-left: 270px;
 }
 .header {
-  padding: 35px;
+  padding: 20px;
     color: #644f00;
   font-size: 30px;
     text-align: center;
@@ -22,6 +24,13 @@ img {
     margin-right: -8px;
     margin-top: -15px;
     margin-bottom: -15px;
+}
+
+.article {
+  font-size: 24px;
+  padding: 90px;
+  margin-top: 60px;
+  margin-left: 630px;
 }
 
 .Buttons {
@@ -43,4 +52,8 @@ img {
     color:black;
     font-weight: bold;
     font-size: 32px;
+  }
+
+  hr {
+    display: none;
   }
