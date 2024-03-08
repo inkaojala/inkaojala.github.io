@@ -15,43 +15,64 @@ body {
     font-family: "Segoe UI Variable Display Light";
     margin: none;
     background-color: #e2f0d9;
+    margin-bottom: -60px;
  }
- 
+
  h1 {
     font-family: "Segoe UI Variable Display Light";
     color: #1f8043;
     font-size: 60px;
     text-align: center;
     padding: 80px;
+ }
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: none;
+    position: relative;
+    top: 25px;
 }
 
-img {
-    float: left;
-    max-width:350px;
-    margin-left: 270px;
-    margin-top: -20px;
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    column-gap: 10px;
 }
 
 .article {
-  font-size: 28px;
-  padding: 60px;
-  margin-top: 20px;
-  margin-left: 630px;
-  margin-bottom: -60px;
+    width: 50%;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  font-size: 36px;
-  width: 100%;
-  margin-top: -50px;
-  height: 100%;
-}
+ .article2 {
+    width: 50%;
+ }
 
-a:visited.etusivu {
-  color: #1f8043;
-}
+ .flex-container {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    width: 100%;
+    margin-top: 10px;
+    height: 100%;
+  }
+
+  a:visited.etusivu {
+    color: #1f8043;
+  }
 
   a:link{
     color:black;
@@ -69,6 +90,6 @@ a:visited.etusivu {
     padding: 25px;
   }
 
-hr {
+  hr {
     display: none;
 }
