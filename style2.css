@@ -8,7 +8,8 @@
     width: 100%;
     height: 220px;
 }
-
+/* Tämä toinen css on isolta osin sama kuin ensimmäinenkin - halusin kuitenkin tehdä sisältösivuille omansa koska niiden lay out on keskenään
+samanlainen kun taas etusivun sommittelu ja sisältö varsin erilainen. Joten kuvittelin tällaisen kahden tyylin ratkaisun selkeyttävän hommaa. */
 body {    
     margin: 0;
     padding: 0;
@@ -37,7 +38,7 @@ h2 {
 h3 {
     font-size: 30px;
 }
-
+/* Esim näillä sisältösivuilla olen hyödyntänyt useampia otsikkoasetuksia */
 h4 {
     font-size: 22px;
 }
@@ -52,11 +53,11 @@ p {
     display: flex;
     column-gap: 10px;
 }
-
+/* Ja näillä pyrin tosiaan saamaan tekstit sommiteltua vierekkäin sivuille, mikä olisi myös osaltaan ilmeisesti/luultavasti helpottanut responsiivisuuden toteuttamista */
 .article {
     width: 50%;
 }
-
+/* Tein kenties turhaan kaksi eri classia tässä kohti? */
  .article2 {
     width: 50%;
  }
@@ -72,7 +73,7 @@ p {
     width: 50%;
     text-align: center;
  }
-
+/* Loput taitaakin olla taas samaa kuin ensimmäisessä stylessä */
  .flex-container {
     display: flex;
     justify-content: center;
@@ -100,23 +101,4 @@ p {
     color:black;
     font-weight: bold;
     padding: 25px;
-  }
-  
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
   }
