@@ -61,6 +61,18 @@ p {
     width: 50%;
  }
 
+ .article-lisatieto {
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+}
+
+ .article2-lisatieto {
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+ }
+
  .flex-container {
     display: flex;
     justify-content: center;
@@ -84,12 +96,27 @@ p {
     text-decoration: none;
     padding: 25px;
   }
-  a:hover {
+  a:hover, a:active {
     color:black;
     font-weight: bold;
     padding: 25px;
   }
-
-  hr {
-    display: none;
-}
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
